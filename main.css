@@ -17,6 +17,14 @@ h1 {
     letter-spacing: 2px;
 }
 
+.site-logo {
+    width: min(320px, 80vw);
+    height: auto;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 6px;
+}
+
 h3 {
     color: #80cbc4;
     border-bottom: 1px solid #264d4d;
@@ -51,6 +59,13 @@ img {
 
 img:hover {
     transform: scale(1.02); /* Slight zoom when hovering */
+}
+
+.header-cap-bottom {
+    width: min(920px, 95vw);
+    height: auto;
+    display: block;
+    margin: 10px auto 0;
 }
 
 /* Links (Discord, etc) */
