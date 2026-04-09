@@ -5,7 +5,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 20px;
+    padding: 100px 20px 20px;
 }
 
 /* Header & Titles */
@@ -17,20 +17,12 @@ h1 {
     letter-spacing: 2px;
 }
 
-.site-logo {
-    width: min(320px, 80vw);
-    height: auto;
-    border: none;
-    box-shadow: none;
-    margin-bottom: 6px;
-}
-
 h3 {
     color: #80cbc4;
     border-bottom: 1px solid #264d4d;
     display: inline-block;
     padding-bottom: 5px;
-    margin-top: 30px;
+    margin-top: 0;
 }
 
 /* Content Containers */
@@ -59,6 +51,28 @@ img {
 
 img:hover {
     transform: scale(1.02); /* Slight zoom when hovering */
+}
+
+.corner-logo {
+    position: fixed;
+    top: 16px;
+    width: min(90px, 22vw);
+    height: auto;
+    border: none;
+    box-shadow: none;
+    z-index: 20;
+}
+
+.corner-logo-left {
+    left: 16px;
+}
+
+.corner-logo-right {
+    right: 16px;
+}
+
+.corner-logo:hover {
+    transform: none;
 }
 
 .header-cap-bottom {
